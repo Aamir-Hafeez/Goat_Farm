@@ -1,0 +1,43 @@
+<svg width="2732" height="2732" viewBox="0 0 2732 2732" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#16a34a"/>
+      <stop offset="1" stop-color="#14532d"/>
+    </linearGradient>
+  </defs>
+  <rect width="2732" height="2732" fill="url(#bg)"/>
+
+  <g transform="translate(756 850) scale(1.2)">
+    <!-- horns -->
+    <path d="M455 420 C398 375 362 305 374 244 C381 210 398 188 421 178"
+          fill="none" stroke="#ffffff" stroke-width="46" stroke-linecap="round"/>
+    <path d="M569 420 C626 375 662 305 650 244 C643 210 626 188 603 178"
+          fill="none" stroke="#ffffff" stroke-width="46" stroke-linecap="round"/>
+
+    <!-- ears -->
+    <ellipse cx="368" cy="505" rx="90" ry="47" transform="rotate(-24 368 505)" fill="#ffffff"/>
+    <ellipse cx="656" cy="505" rx="90" ry="47" transform="rotate(24 656 505)" fill="#ffffff"/>
+
+    <!-- head -->
+    <path d="M512 695 C446 695 391 644 384 566 C374 470 425 396 512 396 C599 396 650 470 640 566 C633 644 578 695 512 695 Z"
+          fill="#ffffff"/>
+
+    <!-- eyes -->
+    <circle cx="463" cy="522" r="23" fill="#14532d"/>
+    <circle cx="561" cy="522" r="23" fill="#14532d"/>
+
+    <!-- muzzle -->
+    <path d="M512 606 C492 606 479 618 479 634 C479 654 494 666 512 666 C530 666 545 654 545 634 C545 618 532 606 512 606 Z"
+          fill="#14532d"/>
+
+    <!-- beard -->
+    <path d="M486 678 L512 782 L538 678 Z" fill="#ffffff"/>
+  </g>
+
+  <text x="1366" y="2075" text-anchor="middle" fill="#ffffff"
+        font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="190" font-weight="700"
+        letter-spacing="6">My Goat</text>
+  <text x="1366" y="2205" text-anchor="middle" fill="#dcfce7"
+        font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="72" font-weight="400"
+        letter-spacing="3">Farm Management</text>
+</svg>

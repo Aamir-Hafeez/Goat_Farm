@@ -1,0 +1,31 @@
+{
+  "name": "goat-farm-backend",
+  "version": "1.0.0",
+  "description": "Goat Breeding Cycle & Farm Management System - Backend API",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "seed": "node scripts/seed.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "node-cron": "^3.0.1",
+    "pdfkit": "^0.14.0",
+    "qrcode": "^1.5.3",
+    "sql.js": "^1.8.0",
+    "uuid": "^14.0.3",
+    "winston": "^3.13.0",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

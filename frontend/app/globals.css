@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --forest: 147 62% 21%; /* Updated HSL for forest */
+    --forestDark: 158 80% 17%;
+    --lightGreen: 132 79% 73%; /* Updated HSL for lightGreen */
+    --softGray: 210 18% 97%;  /* Updated HSL for softGray */
+  }
+
+  body {
+    @apply bg-softGray text-slate-800;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-white rounded-xl shadow-sm border border-gray-200 p-6 transition-all duration-200 hover:shadow-md;
+  }
+
+  .card-header {
+    @apply flex items-center justify-between mb-4 pb-4 border-b border-gray-100;
+  }
+
+  .badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+  }
+
+  .btn-primary {
+    @apply bg-forest text-white px-6 py-2.5 rounded-lg font-medium hover:bg-opacity-90 transition-colors shadow-sm;
+  }
+
+  .stat-card {
+    @apply bg-white rounded-xl p-5 border border-gray-200 shadow-sm hover:shadow-md transition-all;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f8fafc;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
